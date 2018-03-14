@@ -1,0 +1,125 @@
+(C:\Users\TK\Anaconda3) C:\Users\TK>python --version
+Python 3.6.1 :: Anaconda 4.4.0 (64-bit)
+
+(C:\Users\TK\Anaconda3) C:\Users\TK>Conda install pycairo
+Fetching package metadata ...........
+
+PackageNotFoundError: Package missing in current win-64 channels:
+  - pycairo
+
+Close matches found; did you mean one of these?
+
+    pycairo: r-cairo
+
+
+(C:\Users\TK\Anaconda3) C:\Users\TK>Conda install python-igraph
+Fetching package metadata ...........
+
+PackageNotFoundError: Package missing in current win-64 channels:
+  - python-igraph
+
+Close matches found; did you mean one of these?
+
+    python-igraph: python-graphviz, pyqtgraph
+
+
+(C:\Users\TK\Anaconda3) C:\Users\TK>python --version
+Python 3.6.1 :: Anaconda 4.4.0 (64-bit)
+
+(C:\Users\TK\Anaconda3) C:\Users\TK>cd Downloads
+
+(C:\Users\TK\Anaconda3) C:\Users\TK\Downloads>python -m pip install python_igraph-0.7.1.post6-cp36-cp36m-win_amd64.whl
+Processing c:\users\tk\downloads\python_igraph-0.7.1.post6-cp36-cp36m-win_amd64.whl
+Installing collected packages: python-igraph
+Successfully installed python-igraph-0.7.1.post6
+
+(C:\Users\TK\Anaconda3) C:\Users\TK\Downloads>python
+Python 3.6.1 |Anaconda 4.4.0 (64-bit)| (default, May 11 2017, 13:25:24) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import igraph
+>>> import cairo
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'cairo'
+>>> q()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'q' is not defined
+>>> quit
+Use quit() or Ctrl-Z plus Return to exit
+>>> quit()
+
+(C:\Users\TK\Anaconda3) C:\Users\TK\Downloads>Conda install pycairo
+Fetching package metadata ...........
+
+PackageNotFoundError: Package missing in current win-64 channels:
+  - pycairo
+
+Close matches found; did you mean one of these?
+
+    pycairo: r-cairo
+
+
+(C:\Users\TK\Anaconda3) C:\Users\TK\Downloads>python -m pip install pycairo-1.16.3-cp36-cp36m-win_amd64.whl
+Processing c:\users\tk\downloads\pycairo-1.16.3-cp36-cp36m-win_amd64.whl
+Installing collected packages: pycairo
+Successfully installed pycairo-1.16.3
+
+(C:\Users\TK\Anaconda3) C:\Users\TK\Downloads>python
+Python 3.6.1 |Anaconda 4.4.0 (64-bit)| (default, May 11 2017, 13:25:24) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import cairo
+>>> quit()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
