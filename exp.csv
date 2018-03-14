@@ -1,0 +1,8 @@
+Source,Target,Color
+A,B,Black
+B,C,Orange
+C,D,Black
+D,A,Black
+D,E,Black
+C,E,Orange
+B,F,Orange
