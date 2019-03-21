@@ -10,3 +10,6 @@ Installation can be non-trivial. But, the following steps should work on any Win
 * Run `Conda install pycairo`
 * Modify file based on https://github.com/igraph/python-igraph/commit/8864b46849b031a3013764d03e167222963c0f5d
 * But, in the above modification, change the last line to `return result.decode("utf-8"), {'isolated': True}`
+
+## Quick view of Network analysis notebook
+- You may want to have a quick view of [*Network Analysis with igraph*](https://github.com/MengyaoHuang/NetworkAnalysis-igraph/blob/master/IntroNetworkAnalysis.ipynb)
